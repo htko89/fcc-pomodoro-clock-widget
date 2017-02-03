@@ -73,7 +73,7 @@ $( document ).ready( function() {
       pomoTimer.start( "play", playTime, inputUpdate, router );
     } else if ( name === "play" ) {
       if (timersElapsed >= 12){
-        $( "#counter" ).html();
+        $( "#counter" ).html("");
         timersElapsed = 0;
       }
       $( "#input-work" ).val( ( "0" + workTime ).slice( -2 ) );
@@ -87,7 +87,7 @@ $( document ).ready( function() {
       $( "#input-work" ).val( ( "0" + workTime ).slice( -2 ) );
       $( "#input-play" ).val( ( "0" + playTime ).slice( -2 ) );
       $( "#progress" ).circleProgress( "value", 0 );
-      $( "#counter" ).html();
+      $( "#counter" ).html("");
       btnState = "play";
       timersElapsed = 0;
     }
