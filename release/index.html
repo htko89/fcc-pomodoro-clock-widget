@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- metadata -->
+    <title>Pomodoro Clock Widget</title>
+    <meta name="description" content="Free Code Camp Project - Pomodoro Clock Widget">
+    <meta name="author" content="Tony Ko">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- favicon -->
+    <!-- <link rel="icon" href=".png"> -->
+  <!-- external -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:100,300|Roboto+Condensed:100,300">
+  <!-- libraries -->
+    <link rel="stylesheet" type="text/css" href="static/css/bulma-0.3.1.css">
+    <script type="text/javascript" src="static/js/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="static/css/font-awesome-4.7.0.min.css">
+    <script type="text/javascript" src="static/js/roundslider.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="static/css/roundslider.min.css">
+  <!-- widget -->
+    <link rel="stylesheet" type="text/css" href="static/css/index.css">
+    <script type="text/javascript" src="static/js/index.js"></script>
+  <!-- end -->
+</head>
+<body>
+
+  <!-- widget container -->
+  <section id="main" class="section is-stretch">
+    <div class="container is-stretch">
+      <div id="columns" class="columns is-mobile is-stretch is-centered is-gapless">
+        <div class="column is-12-mobile is-one-quarter-tablet is-one-third-desktop">
+
+          <div class="card">
+            <header id="title" class="card-header">
+              <p class="card-header-title">
+                Pomodoro Clock Widget
+              </p>
+              <a class="card-header-icon">
+                <span class="icon">
+                  <i class="fa fa-clokc-o"></i>
+                </span>
+              </a>
+            </header>
+            <div id="display" class="card-content is-centered">
+              <div id="timer">
+                <div id="work" class="boxer">
+                  <input class="input" type="text" placeholder="55" maxlength="2">
+                  <p class="desc">Work</p>
+                </div>
+                <div id="play" class="boxer">
+                  <input class="input" type="text" placeholder="05" maxlength="2">
+                  <p class="desc">Play</p>
+                </div>
+              </div>
+            </div>
+            <div id="controls" class="card-content is-centered">
+              <a class="button is-white">
+                <i class="fa fa-play fa-1x"></i>
+              </a>
+              <a class="button is-white">
+                <i class="fa fa-stop"></i>
+              </a>
+            </div>
+            <footer id="counter" class="card-footer">
+            </footer>
+          </div>
+
+          <div class="card">
+            <footer class="card-footer">
+              <a class="card-footer-item" href="https://htko.ca/project/code/fcc/pomodoro-clock-widget/README/">Portfolio</a>
+              <a class="card-footer-item" href="https://github.com/htko89/fcc-pomodoro-clock-widget">GitHub</a>
+            </footer>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

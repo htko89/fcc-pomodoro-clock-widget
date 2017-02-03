@@ -1,0 +1,83 @@
+/*global*/
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.is-stretch {
+  width: 100%;
+  height: 100%;
+}
+
+.is-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main {
+  background-color: #f5f5f5;
+}
+
+.card {
+  margin: 1rem 0;
+}
+
+
+/*display*/
+#display {
+  height: 20rem;
+}
+
+#timer {
+  display: flex;
+  width: 10rem;
+}
+
+#timer .boxer {
+  width: 50%;
+}
+
+#timer, #timer .input {
+  text-align: center;
+}
+
+#timer .desc {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+#display .input {
+  width: 100%;
+  height: auto;
+  line-height: 1;
+  border: 0;
+  box-shadow: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 300;
+  padding: 0;
+  font-size: 4rem;
+}
+
+#play .input {
+  color: #7a7a7a;
+}
+
+
+/*controls*/
+#controls {
+  padding: 1rem;
+}
+
+#controls .button {
+  color: #f44336;
+}
+
+
+/*counter*/
+
+#counter {
+  padding: 1rem;
+}

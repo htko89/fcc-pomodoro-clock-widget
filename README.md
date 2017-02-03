@@ -1,7 +1,7 @@
 ---
 type: project
 draft: false
-date: '2017-02-01'
+date: '2017-02-02'
 title: Pomodoro Clock Widget
 topics:
   - code
@@ -14,7 +14,7 @@ program: 01 - Front End Development Certification
 course: 12 - Advanced Front End Development Projects
 project: 02 - Build a Pomodoro Clock
 photos:
-  - mockup-mobile.jpg
+  - mockup-mobile-m.jpg
 path: code/fcc/pomodoro-clock-widget
 ---
 # Student Project - Free Code Camp
