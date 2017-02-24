@@ -1,21 +1,19 @@
 ---
-type: project
-draft: false
-date: '2017-02-03'
 title: Pomodoro Clock Widget
-topics:
-  - code
-tools:
-  - bulma
-  - jquery
+date: '2017-02-03'
 link: 'https://htkoca.github.io/fcc-pomodoro-clock-widget/release/'
 code: 'https://github.com/htkoca/fcc-pomodoro-clock-widget'
 program: 01 - Front End Development Certification
 course: 12 - Advanced Front End Development Projects
 project: 02 - Build a Pomodoro Clock
+categories:
+  - code
+tags:
+  - bulma
+  - jquery
+cover: cover.jpg
 photos:
   - mockup-mobile-m.jpg
-path: code/fcc/pomodoro-clock-widget
 ---
 # Student Project - Free Code Camp
 Build an app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/aNyxXR/.
